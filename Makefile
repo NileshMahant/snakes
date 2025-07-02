@@ -9,15 +9,12 @@ SOURCES = main.cc
 # Define the output file
 OUTPUT = snake_game.html
 
-# Define raylib path (using web-compiled version)
+# Define raylib path (using web-compiled version) I had compiled at ../raylib for web.
 RAYLIB_INCLUDE = ../raylib/src
 RAYLIB_LIB = ../raylib/src
 
 # Define the flags
 CFLAGS = -I$(RAYLIB_INCLUDE) -L$(RAYLIB_LIB) -lraylib.web -s USE_GLFW=3 -s ASYNCIFY -s TOTAL_MEMORY=67108864 -s FORCE_FILESYSTEM=1 -DPLATFORM_WEB
-
-# No shell file needed for basic compilation
-SHELL_FILE =
 
 # Default target
 all: $(OUTPUT)
