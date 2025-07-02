@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${default}",
+                "/opt/homebrew/Cellar/raylib/5.5/include"
+            ],
+            "defines": [],
+            "compilerPath": "/opt/homebrew/opt/llvm/bin/clang",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
