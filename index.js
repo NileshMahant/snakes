@@ -637,7 +637,7 @@ function createExportWrapper(name, nargs) {
 var wasmBinaryFile;
 
 function findWasmBinary() {
-    return locateFile('snake_game.wasm');
+    return locateFile('index.wasm');
 }
 
 function getBinarySync(file) {
